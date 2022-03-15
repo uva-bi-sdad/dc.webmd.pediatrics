@@ -1,0 +1,47 @@
+{
+  "name": "dc.webmd.pediatrics",
+  "data": [
+    {
+      "name": "acccess_scores_pediatrics",
+      "variables": ["ped_pop_cnt", "ped_cnt", "ped_near_10_mean", "ped_near_10_median", "ped_2sfca", "ped_e2sfca", "ped_3sfca"],
+      "file": "dmv_cttrbg_webmd_2021_acccess_scores_pediatrics.csv.xz",
+      "size": 169644,
+      "md5": "f31743da24155a2203ca0cace492a455"
+    },
+    {
+      "name": "access_scores_pediatrics",
+      "variables": ["ped_pop_cnt", "ped_cnt", "ped_near_10_mean", "ped_near_10_median", "ped_2sfca", "ped_e2sfca", "ped_3sfca"],
+      "file": "dmv_cttrbg_webmd_2021_access_scores_pediatrics.csv.xz",
+      "size": 169644,
+      "md5": "f31743da24155a2203ca0cace492a455"
+    },
+    {
+      "name": "access_scores_pediatric",
+      "variables": ["ped_pop_cnt", "ped_cnt", "ped_3sfca", "ped_2sfca", "ped_near_10_mean", "ped_near_10_median", "ped_e2sfca"],
+      "file": "va_hdcttrbg_webmd_2021_access_scores_pediatric.csv.xz",
+      "size": 425728,
+      "md5": "39ce3b7644741a96bc1393dc23cbb291"
+    }
+  ],
+  "distributions": {
+    "dataverse": {
+      "id": 55974,
+      "doi": "doi:10.18130/V3/LFCWEK",
+      "server": "https://dataverse.lib.virginia.edu/",
+      "data": [
+        {
+          "file": "dmv_cttrbg_webmd_2021_access_scores_pediatrics.csv.xz",
+          "id": 55982,
+          "size": 169644,
+          "md5": "f31743da24155a2203ca0cace492a455"
+        },
+        {
+          "file": "va_hdcttrbg_webmd_2021_access_scores_pediatric.csv.xz",
+          "id": 56002,
+          "size": 425728,
+          "md5": "39ce3b7644741a96bc1393dc23cbb291"
+        }
+      ]
+    }
+  }
+}

@@ -1,8 +1,8 @@
 {
-  "access_scores_pediatrics:ped_cnt": {
+  "access_scores_pediatric:ped_cnt": {
     "category": "Health",
     "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
-    "full_name": "access_scores_pediatrics:ped_cnt",
+    "full_name": "access_scores_pediatric:ped_cnt",
     "measure": "ped_cnt",
     "type": "count",
     "short_name": "Pediatric care availability (count)",
@@ -19,16 +19,16 @@
       }
     ]
   },
-  "access_scores_pediatrics:ped_2sfca": {
+  "access_scores_pediatric:ped_3sfca": {
     "category": "Health",
     "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
-    "full_name": "access_scores_pediatrics:ped_2sfca",
-    "measure": "ped_2sfca",
+    "full_name": "access_scores_pediatric:ped_3sfca",
+    "measure": "ped_3sfca",
     "type": "index",
     "short_name": "Pediatric care geographic availability",
-    "long_name": "Pediatric care geographic availability (2-step enhanced floating catchment areas)",
+    "long_name": "Pediatric care geographic availability (3-step floating catchment areas)",
     "short_description": "Index of pediatric care physician availability based on supply and demand of providers",
-    "long_description": "Pediatric care availability based on 2-step enhanced floating catchment areas. This method is an aggregation of pediatricians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for pediatricians (population under 16). Provider address data were collected from WebMD's online Physician Directory.",
+    "long_description": "Pediatric care availability based on 3-step floating catchment areas. This method is an aggregation of pediatricians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for pediatricians (population under 16). Provider address data were collected from WebMD's online Physician Directory.",
     "statement": "The pediatric care availability for {features.name} is {value}.",
     "equity_category": "Availability",
     "citations": [
